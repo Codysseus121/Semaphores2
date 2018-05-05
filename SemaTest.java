@@ -7,7 +7,6 @@ public class SemaTest {
 		final int counter=10000;
 		    String X = "X";
 		    String Y = "Y";
-		    String Z = "Z";
 		    BinarySemaphore mutex = new BinarySemaphore(1);		       
 		    Runnable Rx = new PrinterX(counter, mutex, X);
 		    Runnable Ry = new PrinterX(counter, mutex, Y);  
